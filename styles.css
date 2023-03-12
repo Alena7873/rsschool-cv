@@ -1,0 +1,43 @@
+* {
+    border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1020px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.my-content::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.my-content::before {
+    display: table;
+    content: "";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
+}
